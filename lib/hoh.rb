@@ -32,7 +32,6 @@
 
 def naming_system
 naming_system = {
- {
     label: "Kingdom",
     sub_category: {
        label: "Phylum",
@@ -46,14 +45,13 @@ naming_system = {
                  label: "Genus",
                  sub_category: {
                    label: "Species",
-                   sub_category: {}
-                 }
-               }
+                   sub_category: {nil}
+                   }
+              }
           }
+        }
+      }
     }
- }
-    }
- }
  }
  naming_system
 end
